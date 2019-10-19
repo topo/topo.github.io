@@ -70,15 +70,13 @@ p {
   margin-top: 6pt;
   margin-bottom: 6pt;
   border-radius: 3pt;
+  padding-left: 12pt;
+  padding-right: 12pt;
 }
 
 code {
-  padding: 6pt;
-  padding-left: 12pt;
-  padding-right: 12pt;
   font-size: 12pt;
   font-family: $fontFamily;
-  font-weight: lighter;
 }
 
 .language-javascript, .language-jsx {
