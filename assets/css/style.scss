@@ -7,6 +7,7 @@ $borderColor: rgb(230,230,230);
 $fontFamily: "Roboto Mono", monospace;
 body {
   font-family: $fontFamily;
+  color: rgb(45,45,45);
 }
 #container {
   background: white;
@@ -44,4 +45,11 @@ header {
 }
 h2, h3 {
   font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.language-markdown {
+  background-color: rgb(50,50,60);
+  color: rgb(245,245,245);
 }
