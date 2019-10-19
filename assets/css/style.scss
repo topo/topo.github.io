@@ -16,7 +16,7 @@ body {
   padding: 12pt;
 }
 
-#left-part {
+.left-part {
   border-width:0;
   border-right-width: 1px;
   border-color: $borderColor;
@@ -24,7 +24,7 @@ body {
   width: 128pt;
 }
 
-div.right-part {
+.right-part {
   border-width:0;
   border-left-width: 1px;
   border-color: $borderColor;
