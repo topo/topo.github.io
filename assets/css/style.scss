@@ -79,10 +79,25 @@ code {
 }
 
 .language-javascript {
-  .kd {
+  .k, .kd {
     color: #d35595;
   }
   .nx {
+    color: #fbd249;
+  }
+}
+
+.language-jsx {
+  .k, .kd {
+    color: #d35595;
+  }
+  .n, .nt, .na {
+    color: #ce5a57;
+  }
+  .nx {
+    color: #fbd249;
+  }
+  .s2 {
     color: #fbd249;
   }
 }
