@@ -1,15 +1,5 @@
 <div class="right-part" style="min-width: 150pt;">
-    {% assign productionReady = '' | split: '' %}
-    {% assign experimental = '' | split: '' %}
-    
-    {% for repository in site.github.public_repositories %}
-      {% assign category = repository.description | split: "Category:" | last %}
-      {% assign repoName = repository.name | split: '@@@' %}
-        {% if category == "Production-Ready" %}
-          {% assign productionReady = productionReady | concat: repoName %}
-        {% endif %}
-        {% if category == "Experimental" %}
-          {% assign experimental = experimental | concat: repoName %}
-        {% endif %}
-    {% endfor %}
+  {% for repository in site.github.public_repositories %}
+    * [{{ repository.name }}]({{ repository.html_url }})
+  {% endfor %}
 </div>
