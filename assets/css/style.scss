@@ -79,12 +79,17 @@ body {
 header {
   h1 {
     font-family: $fontFamily;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-size: $redColor;
   }
-}
-
-.page-info {
-  color: $redColor;
+  p {
+    font-size: $redColor;
+    font-size: 1rem;
+  }
+  .page-info {
+    padding-bottom: 24pt;
+    font-size: 0.8rem;
+  }
 }
 
 hr {
