@@ -45,15 +45,21 @@ header {
     font-size: 1.5rem;
   }
 }
-h2, h3 {
+
+h1, h2, h3 {
   font-size: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: normal;
+
+  max-width: 35rem;
+  margin: 0 auto;
 }
 
 p {
-  font-weight: light;
+  font-weight: lighter;
+  max-width: 35rem;
+  margin: 0 auto;
 }
 
 .language-markdown {
