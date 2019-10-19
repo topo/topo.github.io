@@ -17,21 +17,21 @@
     <div id="container">
       {% include header.html %}
       <div class="inner">
+        <div class="article">
+          <header>
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.description }}</h2>
+          </header>
 
-        <header>
-          <h1>{{ page.title }}</h1>
-          <h2>{{ page.description }}</h2>
-        </header>
+          <hr>
+          <section id="main_content">
+            {{ content }}
+          </section>
 
-        <hr>
-        <section id="main_content">
-          {{ content }}
-        </section>
-
-        <footer>
-        
-        </footer>
-
+          <footer>
+          
+          </footer>
+        </div>
       </div>
       {% include sidebar.html %}
     </div>

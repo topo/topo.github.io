@@ -51,15 +51,17 @@ h1, h2, h3 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: normal;
-
-  max-width: 35rem;
-  margin: 0 auto;
 }
 
 p {
   font-weight: lighter;
-  max-width: 35rem;
-  margin: 0 auto;
+}
+
+.article {
+  h1, h2, h3, p {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
 }
 
 .highlight {
