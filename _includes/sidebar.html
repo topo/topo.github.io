@@ -1,13 +1,13 @@
 <div class="right-part">
   <button id="darklight-switch">dark/light</button>
   <h2>Our repos</h2>
-  <ul>
+  <ul class="repositories">
     {% for repository in site.github.public_repositories %}
       <li>
-        {{repository}}
         <a href="{{ repository.html_url }}">
           {{ repository.name }}
         </a>
+        {{ repository.description }}
       </li>
     {% endfor %}
   </ul>

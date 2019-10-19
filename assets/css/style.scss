@@ -17,8 +17,8 @@ body {
   padding: 12pt;
 }
 #container.dark {
-  background: black;
-  color: white;
+  background: rgb(40,40,40);
+  color: rgb(240,240,240);
 }
 
 .left-part {
@@ -64,6 +64,10 @@ p {
   font-weight: lighter;
 }
 
+a {
+  color: #ce5a57;
+}
+
 .article {
   h1, h2, h3, p, ul, ol, code {
     max-width: 35rem;
@@ -99,4 +103,8 @@ code {
   .nb, .mi {
     color: inherit;
   }
+}
+
+.repositories {
+  list-style-type: none;
 }
