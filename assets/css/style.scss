@@ -68,4 +68,8 @@ p {
 }
 .language-markdown code {
   max-width: 35rem;
+  margin: 0 auto;
+  padding: 12pt;
+  font-size: 14pt;
+  font-family: $fontFamily;
 }
