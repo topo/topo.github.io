@@ -14,13 +14,13 @@ body {
   justify-content: center;
   padding: 12pt;
 }
-.left {
+.left-part {
   border-width:0;
   border-right-width: 1px;
   border-color: $borderColor;
   padding-right: 12pt;
 }
-.right {
+.right-part {
   border-width:0;
   border-left-width: 1px;
   border-color: $borderColor;
