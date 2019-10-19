@@ -3,8 +3,11 @@
 
 @import "{{ site.theme }}";
 body {
-  font-family: "Courier New", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 #container {
   background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
