@@ -130,10 +130,14 @@ header {
   h1 {
     font-family: $fontFamily;
     font-size: 1.6rem;
+    padding-bottom: 0;
   }
   p {
     font-size: 1rem;
     color: $redColor;
+    padding: 0;
+    margin-top: 4pt;
+    margin-bottom: 0;
   }
   .page-info {
     padding-bottom: 24pt;
