@@ -21,7 +21,7 @@
           {% for post in site.posts %}	
             <h1 class="index-headline"><a href="{{ post.url }}" style="color:inherit;">{{ post.title }}</a></h1>
             <p class="index-description"><i>{{ post.description }}</i></p>
-            <p class="index-info"><i class="fas fa-calendar-day"></i> {{ post.date | date: "%B %e, %Y" }} <i class="fas fa-feather-alt"></i> {{ page.author }}</p>			
+            <p class="index-info"><i class="fas fa-calendar-day"></i> {{ post.date | date: "%B %e, %Y" }} <i class="fas fa-feather-alt"></i> {{ post.author }}</p>			
           {% endfor %}	
         </section>
 
