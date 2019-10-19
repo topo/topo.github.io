@@ -84,10 +84,13 @@ code {
   .k, .kd, .o {
     color: #d35595;
   }
-  .n, .nt, .na, .s2 {
+  .n, .nt, .na, .s2, .s1 {
     color: #ce5a57;
   }
   .nx, .si {
     color: #fbd249;
+  }
+  .nb {
+    color: inherit;
   }
 }
