@@ -16,6 +16,10 @@ body {
   justify-content: space-between;
   padding: 12pt;
 }
+#container.dark {
+  background: black;
+  color: white;
+}
 
 .left-part {
   border-width:0;

@@ -1,8 +1,10 @@
 <div class="right-part">
+  <button onClick="toggleDarkLight()">dark/light</button>
   <h2>Our repos</h2>
   <ul>
     {% for repository in site.github.public_repositories %}
       <li>
+        {{repository}}
         <a href="{{ repository.html_url }}">
           {{ repository.name }}
         </a>
