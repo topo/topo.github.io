@@ -12,7 +12,7 @@ body {
   background: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   padding: 12pt;
 }
 
@@ -21,6 +21,7 @@ div.left-part {
   border-right-width: 1px;
   border-color: $borderColor;
   padding-right: 12pt;
+  width: 128pt;
 }
 
 div.right-part {
