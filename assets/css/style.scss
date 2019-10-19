@@ -2,6 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+
+$borderColor: rgb(230,230,230);
 body {
   font-family: "Roboto Mono", monospace;
 }
@@ -10,4 +12,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 12pt;
+}
+.left {
+  border-width:0;
+  border-right-width: 1px;
+  border-color: $borderColor;
+  padding-right: 12pt;
+}
+.right {
+  border-width:0;
+  border-left-width: 1px;
+  border-color: $borderColor;
+  padding-left: 12pt;
+}
+.inner {
+  margin: auto !important$;
+  padding-left: 12pt;
+  padding-right: 12pt;
 }
