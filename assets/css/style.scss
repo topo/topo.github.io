@@ -69,13 +69,13 @@ p {
   color: rgb(235,235,235);
   margin-top: 6pt;
   margin-bottom: 6pt;
-  padding: 6pt;
-  padding-left: 12pt;
-  padding-right: 12pt;
   border-radius: 3pt;
 }
 
 code {
+  padding: 6pt;
+  padding-left: 12pt;
+  padding-right: 12pt;
   font-size: 12pt;
   font-family: $fontFamily;
 }
@@ -84,13 +84,13 @@ code {
   .k, .kd, .o {
     color: #d35595;
   }
-  .n, .nt, .na, .s2, .s1 {
+  .n, .nt, .na, .s2, .s1, .dl {
     color: #ce5a57;
   }
   .nx, .si {
     color: #fbd249;
   }
-  .nb {
+  .nb, .mi {
     color: inherit;
   }
 }
