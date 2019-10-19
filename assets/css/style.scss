@@ -4,8 +4,9 @@
 @import "{{ site.theme }}";
 
 $borderColor: rgb(230,230,230);
+$fontFamily: "Roboto Mono", monospace;
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: $fontFamily;
 }
 #container {
   background: white;
@@ -14,13 +15,15 @@ body {
   justify-content: center;
   padding: 12pt;
 }
-.left-part {
+
+div.left-part {
   border-width:0;
   border-right-width: 1px;
   border-color: $borderColor;
   padding-right: 12pt;
 }
-.right-part {
+
+div.right-part {
   border-width:0;
   border-left-width: 1px;
   border-color: $borderColor;
@@ -30,4 +33,14 @@ body {
   margin: 0 !important;
   padding-left: 12pt;
   padding-right: 12pt;
+}
+
+header {
+  h1 {
+    font-family: $fontFamily;
+    font-size: 1.5rem;
+  }
+}
+h2, h3 {
+  font-size: 1rem;
 }
