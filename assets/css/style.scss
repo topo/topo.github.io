@@ -111,6 +111,7 @@ a {
 .index-headline {
   font-size: 1.6rem;
   color: $redColor;
+  padding-bottom: 0;
 }
 .index-description {
   font-style: italic;
@@ -136,8 +137,8 @@ header {
     font-size: 1rem;
     color: $redColor;
     padding: 0;
-    margin-top: 4pt;
-    margin-bottom: 0;
+    margin-top: 6pt;
+    margin-bottom: 6pt;
   }
   .page-info {
     padding-bottom: 24pt;
