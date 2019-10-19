@@ -77,13 +77,12 @@ body {
 }
 
 header {
+  color: $redColor;
   h1 {
     font-family: $fontFamily;
     font-size: 1.4rem;
-    font-size: $redColor;
   }
   p {
-    font-size: $redColor;
     font-size: 1rem;
   }
   .page-info {
@@ -117,6 +116,10 @@ a {
   h1, h2, h3, p, ul, ol, code {
     max-width: 35rem;
     margin: 0 auto;
+  }
+  ul, ol {
+    padding-left: 12pt;
+    padding-right: 12pt;
   }
 }
 
