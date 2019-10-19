@@ -34,10 +34,12 @@ body {
   color: $whiteColor;
 }
 
+/**
+ * Layout
+ **/
 .left-part {
   border-width:0;
   border-right-width: 1px;
-  border-color: $borderColor;
   padding-right: 12pt;
   width: 128pt;
   max-width: 128pt;
@@ -46,12 +48,24 @@ body {
 .right-part {
   border-width:0;
   border-left-width: 1px;
-  border-color: $borderColor;
   padding-left: 12pt;
   width: 128pt;
   max-width: 128pt;
 }
 
+.inner {
+  margin: 0 !important;
+  padding-left: 12pt;
+  padding-right: 12pt;
+  min-width: 500px;
+  flex: 1;
+
+  overflow: auto;
+}
+
+/**
+ * Top Right Interaction
+ **/
 .button-rack {
   display: flex;
   flex-direction: row;
@@ -66,32 +80,10 @@ body {
   border-style: none;
 }
 
-.inner {
-  margin: 0 !important;
-  padding-left: 12pt;
-  padding-right: 12pt;
-  min-width: 500px;
-  flex: 1;
 
-  overflow: auto;
-}
-
-header {
-  h1 {
-    font-family: $fontFamily;
-    font-size: 1.6rem;
-  }
-  p {
-    font-size: 1rem;
-    color: $redColor;
-  }
-  .page-info {
-    padding-bottom: 24pt;
-    font-size: 0.8rem;
-    color: $redColor;
-
-  }
-}
+/**
+ * Basic style
+ **/
 
 hr {
   border-color: $redColor;
@@ -113,6 +105,40 @@ p {
 a {
   color: $redColor;
 }
+/**
+ * Index style
+ **/
+.index-headline {
+  font-size: 1.8rem;
+  color: $redColor;
+}
+.index-description {
+  font-style: italic;
+  margin: 0;
+}
+.index-info {
+  font-size: 0.8rem;
+  margin-bottom: 24pt;
+}
+
+/**
+ * Article style
+ **/
+header {
+  h1 {
+    font-family: $fontFamily;
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1rem;
+    color: $redColor;
+  }
+  .page-info {
+    padding-bottom: 24pt;
+    font-size: 0.8rem;
+    color: $redColor;
+  }
+}
 
 .article {
   h1, h2, h3, p, ul, ol, code {
@@ -120,8 +146,8 @@ a {
     margin: 0 auto;
   }
   ul, ol {
-    padding-left: 12pt;
-    padding-right: 12pt;
+    padding-left: 18pt;
+    padding-right: 18pt;
   }
 }
 
