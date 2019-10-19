@@ -62,7 +62,10 @@ p {
   margin: 0 auto;
 }
 
-.language-markdown {
+.highlight {
   background-color: rgb(50,50,60);
   color: rgb(245,245,245);
+}
+.language-markdown code {
+  max-width: 35rem;
 }
