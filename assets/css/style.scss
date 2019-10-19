@@ -5,6 +5,9 @@
 
 $borderColor: rgb(230,230,230);
 $fontFamily: "IBM Plex Mono", monospace;
+$redColor: #C30E00;
+
+
 body {
   font-family: $fontFamily;
   color: rgb(45,45,45);
@@ -44,7 +47,7 @@ body {
   width: 32pt;
   height: 32pt;
   font-size: 18pt;
-  color: inherit;
+  color: $redColor;
 }
 .inner {
   margin: 0 !important;
@@ -73,7 +76,7 @@ p {
 }
 
 a {
-  color: #ce5a57;
+  color: $redColor;
 }
 
 .article {
