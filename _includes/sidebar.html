@@ -1,7 +1,15 @@
 <div class="right-part" style="min-width: 150pt;">
-  {% for repository in site.github.public_repositories %}
-    {% if repository.topics contains "production_ready" %}
-       <a href="{{ repository.name }}">{{ repository.name }}</a> (<a href="{{ repository.html_url }}">repo</a>) </br>
-    {% endif %}
-  {% endfor %}
+    {% assign productionReady = '' | split: '' %}
+    {% assign experimental = '' | split: '' %}
+    
+    {% for repository in site.github.public_repositories %}
+      {% assign category = repository.description | split: "Category:" | last %}
+      {% assign repoName = repository.name | split: '@@@' %}
+        {% if category == "Production-Ready" %}
+          {% assign productionReady = productionReady | concat: repoName %}
+        {% endif %}
+        {% if category == "Experimental" %}
+          {% assign experimental = experimental | concat: repoName %}
+        {% endif %}
+    {% endfor %}
 </div>
