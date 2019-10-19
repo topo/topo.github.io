@@ -78,17 +78,8 @@ code {
   font-family: $fontFamily;
 }
 
-.language-javascript {
-  .k, .kd {
-    color: #d35595;
-  }
-  .nx {
-    color: #fbd249;
-  }
-}
-
-.language-jsx {
-  .k, .kd {
+.language-javascript, .language-jsx {
+  .k, .kd, .o {
     color: #d35595;
   }
   .n, .nt, .na {
