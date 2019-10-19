@@ -43,7 +43,6 @@ body {
 }
 
 .button-rack {
-  background: red;
   display: flex;
   flex-direction: row;
 }
@@ -54,6 +53,7 @@ body {
   height: 32pt;
   font-size: 18pt;
   color: $redColor;
+  border-style: none;
 }
 
 .inner {
@@ -69,6 +69,10 @@ header {
     font-family: $fontFamily;
     font-size: 1.5rem;
   }
+}
+
+.page-info {
+  color: $redColor;
 }
 
 h1, h2, h3 {
