@@ -49,10 +49,6 @@ body {
 }
 .button-icon {
   flex: 1;
-  border-style: solid;
-  border-width: 0;
-  border-left-width: 1px;
-  border-color: $borderColor;
   background: transparent;
   width: 32pt;
   height: 32pt;
@@ -66,11 +62,6 @@ body {
   padding-right: 12pt;
   min-width: 500px;
   flex: 1;
-  border-style: none;
-  border-width: 0;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-color: $borderColor;
 }
 
 header {
