@@ -4,6 +4,7 @@
   <ul class="repositories">
     {% for repository in site.github.public_repositories %}
       <li>
+        {{ repository }}
         <a href="{{ repository.html_url }}">{{ repository.name }}</a>
         <br/>
         <p>{{ repository.description }}</p>
