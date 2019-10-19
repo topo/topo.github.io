@@ -58,7 +58,7 @@ p {
 }
 
 .article {
-  h1, h2, h3, p {
+  h1, h2, h3, p, ul, ol, code {
     max-width: 35rem;
     margin: 0 auto;
   }
