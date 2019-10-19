@@ -72,9 +72,17 @@ p {
   padding-right: 12pt;
   border-radius: 3pt;
 }
-.language-markdown code {
-  max-width: 35rem;
-  margin: 0 auto;
+
+code {
   font-size: 12pt;
   font-family: $fontFamily;
+}
+
+.language-javascript {
+  .kd {
+    color: #d35595;
+  }
+  .nx {
+    color: #fbd249;
+  }
 }
