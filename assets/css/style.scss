@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 $borderColor: rgb(230,230,230);
-$fontFamily: "Roboto Mono", monospace;
+$fontFamily: "IBM Plex Mono", monospace;
 body {
   font-family: $fontFamily;
   color: rgb(45,45,45);
