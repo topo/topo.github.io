@@ -1,10 +1,9 @@
 <div class="right-part">
-  <button id="darklight-switch">dark/light</button>
+  <button id="darklight-switch"><i class="fas fa-lightbulb"></i></button>
   <h2>Our repos</h2>
   <ul class="repositories">
     {% for repository in site.github.public_repositories %}
       <li>
-        {{ repository }}
         <a href="{{ repository.html_url }}">{{ repository.name }}</a>
         <br/>
         <p>{{ repository.description }}</p>
