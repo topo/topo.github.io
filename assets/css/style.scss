@@ -6,6 +6,9 @@
 $borderColor: rgb(230,230,230);
 $fontFamily: "IBM Plex Mono", monospace;
 $redColor: #C30E00;
+$whiteColor: rgb(240,240,240);
+$blackColor: rgb(40,40,50);
+$blackLightColor: rgb(50,50,60);
 
 
 body {
@@ -13,15 +16,15 @@ body {
   color: rgb(45,45,45);
 }
 #container {
-  background: white;
+  background: $whiteColor;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 12pt;
 }
 #container.dark {
-  background: rgb(40,40,40);
-  color: rgb(240,240,240);
+  background: $blackColor;
+  color: $whiteColor;
 }
 
 .left-part {
@@ -88,6 +91,8 @@ h1, h2, h3 {
 
 p {
   font-weight: lighter;
+  padding-top: 6pt;
+  padding-bottom: 6pt;
 }
 
 a {
@@ -102,8 +107,8 @@ a {
 }
 
 .highlight {
-  background-color: rgb(50,50,60);
-  color: rgb(235,235,235);
+  background-color: $blackLightColor;
+  color: $whiteColor;
   margin-top: 6pt;
   margin-bottom: 6pt;
   border-radius: 3pt;
