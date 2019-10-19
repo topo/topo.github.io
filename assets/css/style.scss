@@ -109,12 +109,14 @@ a {
  * Index style
  **/
 .index-headline {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: $redColor;
 }
 .index-description {
   font-style: italic;
   margin: 0;
+  margin-top: 4pt;
+  padding:0;
 }
 .index-info {
   font-size: 0.8rem;
