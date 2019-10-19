@@ -62,19 +62,17 @@ p {
   margin: 0 auto;
 }
 
-.language-markdown {
-  display: block;
-}
 .highlight {
   background-color: rgb(50,50,60);
-  color: rgb(245,245,245);
+  color: rgb(235,235,235);
   margin-top: 6pt;
   margin-bottom: 6pt;
+  padding: 12pt;
+  border-radius: 3pt;
 }
 .language-markdown code {
   max-width: 35rem;
   margin: 0 auto;
-  padding: 12pt;
   font-size: 12pt;
   font-family: $fontFamily;
 }
