@@ -1,5 +1,7 @@
-@import "";
+---
+---
 
+@import "{{ site.theme }}";
 body {
   font-family: "Courier New", monospace;
 }
