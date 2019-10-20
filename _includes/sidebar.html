@@ -5,11 +5,13 @@
   <h2>Repositories</h2>
   <ul class="repositories">
     {% for repository in site.github.public_repositories %}
+      {% if 'design, topolitik' contains repository.name %}
       <li>
         <a href="{{ repository.html_url }}" target="_blank">{{ repository.name }}</a>
         <br/>
         <p>{{ repository.description }}</p>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
